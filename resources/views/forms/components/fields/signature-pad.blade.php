@@ -20,10 +20,10 @@
 >
     <div
         x-load-css="[
-            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('signature-pad-styles', \Coolsam\SignaturePad\Forms\Components\Fields\SignaturePad::PACKAGE_NAME)),
+            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('signature-pad-styles', \akiraaisha\SignaturePad\Forms\Components\Fields\SignaturePad::PACKAGE_NAME)),
         ]"
         ax-load
-        ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('signature-pad', \Coolsam\SignaturePad\Forms\Components\Fields\SignaturePad::PACKAGE_NAME) }}"
+        ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('signature-pad', \akiraaisha\SignaturePad\Forms\Components\Fields\SignaturePad::PACKAGE_NAME) }}"
         x-data="signaturePad(
         $wire.{{ $applyStateBindingModifiers("entangle('{$getStatePath()}')") }},
         {
