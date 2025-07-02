@@ -2,7 +2,7 @@
     "name": "akiraaisha/filament-signature-pad",
     "description": "Signature Pad for FilamentPHP",
     "keywords": [
-        "coolsam",
+        "akiraaisha",
         "laravel",
         "signature-pad"
     ],
@@ -69,10 +69,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Coolsam\\SignaturePad\\SignaturePadServiceProvider"
+                "akiraaisha\\SignaturePad\\SignaturePadServiceProvider"
             ],
             "aliases": {
-                "SignaturePad": "Coolsam\\SignaturePad\\Facades\\SignaturePad"
+                "SignaturePad": "akiraaisha\\SignaturePad\\Facades\\SignaturePad"
             }
         }
     },
