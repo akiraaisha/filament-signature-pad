@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\SignaturePad\Testing;
+namespace akiraaisha\SignaturePad\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 
