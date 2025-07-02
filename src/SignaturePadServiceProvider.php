@@ -1,9 +1,9 @@
 <?php
 
-namespace Coolsam\SignaturePad;
+namespace akiraaisha\SignaturePad;
 
-use Coolsam\SignaturePad\Commands\SignaturePadCommand;
-use Coolsam\SignaturePad\Testing\TestsSignaturePad;
+use akiraaisha\SignaturePad\Commands\SignaturePadCommand;
+use akiraaisha\SignaturePad\Testing\TestsSignaturePad;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
