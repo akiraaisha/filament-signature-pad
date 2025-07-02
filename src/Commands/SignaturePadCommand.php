@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\SignaturePad\Commands;
+namespace akiraaisha\SignaturePad\Commands;
 
 use Illuminate\Console\Command;
 
