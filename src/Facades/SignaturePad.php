@@ -1,16 +1,16 @@
 <?php
 
-namespace Coolsam\SignaturePad\Facades;
+namespace akiraaisha\SignaturePad\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Coolsam\SignaturePad\SignaturePad
+ * @see \akiraaisha\SignaturePad\SignaturePad
  */
 class SignaturePad extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Coolsam\SignaturePad\SignaturePad::class;
+        return \akiraaisha\SignaturePad\SignaturePad::class;
     }
 }
