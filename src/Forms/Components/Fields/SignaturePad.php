@@ -1,9 +1,9 @@
 <?php
 
-namespace Coolsam\SignaturePad\Forms\Components\Fields;
+namespace akiraaisha\SignaturePad\Forms\Components\Fields;
 
-use Coolsam\SignaturePad\Forms\Concerns\CanDisplayTemplate;
-use Coolsam\SignaturePad\Forms\Concerns\HasSignaturePadAttributes;
+use akiraaisha\SignaturePad\Forms\Concerns\CanDisplayTemplate;
+use akiraaisha\SignaturePad\Forms\Concerns\HasSignaturePadAttributes;
 use Filament\Forms\Components\Concerns;
 use Filament\Forms\Components\Contracts;
 use Filament\Forms\Components\Field;
@@ -23,7 +23,7 @@ class SignaturePad extends Field implements Contracts\CanBeLengthConstrained, Co
     use HasExtraAlpineAttributes;
     use HasSignaturePadAttributes;
 
-    const PACKAGE_NAME = 'coolsam/signature-pad';
+    const PACKAGE_NAME = 'akiraaisha/signature-pad';
 
-    protected string $view = 'coolsam-signature-pad::forms.components.fields.signature-pad';
+    protected string $view = 'akiraaisha-signature-pad::forms.components.fields.signature-pad';
 }
