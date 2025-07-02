@@ -3,7 +3,7 @@
 namespace akiraaisha\SignaturePad;
 
 use akiraaisha\SignaturePad\Commands\SignaturePadCommand;
-use akiraaisha\SignaturePad\Testing\TestsSignaturePad;
+// use akiraaisha\SignaturePad\Testing\TestsSignaturePad;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -86,7 +86,7 @@ class SignaturePadServiceProvider extends PackageServiceProvider
         }
 
         // Testing
-        Testable::mixin(new TestsSignaturePad);
+        // Testable::mixin(new TestsSignaturePad);
     }
 
     protected function getAssetPackageName(): ?string
