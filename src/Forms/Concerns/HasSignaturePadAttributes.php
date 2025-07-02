@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\SignaturePad\Forms\Concerns;
+namespace akiraaisha\SignaturePad\Forms\Concerns;
 
 use Closure;
 
