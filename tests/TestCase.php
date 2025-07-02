@@ -1,10 +1,10 @@
 <?php
 
-namespace Coolsam\SignaturePad\Tests;
+namespace akiraaisha\SignaturePad\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use Coolsam\SignaturePad\SignaturePadServiceProvider;
+use akiraaisha\SignaturePad\SignaturePadServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\FilamentServiceProvider;
 use Filament\Forms\FormsServiceProvider;
@@ -27,7 +27,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Coolsam\\SignaturePad\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'akiraaisha\\SignaturePad\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 
