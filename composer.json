@@ -1,15 +1,15 @@
 {
-    "name": "bradwarwick/signature-pad",
+    "name": "akiraaisha/signature-pad",
     "description": "Signature Pad for FilamentPHP",
     "keywords": [
         "coolsam",
         "laravel",
         "signature-pad"
     ],
-    "homepage": "https://github.com/bradwarwick/signature-pad",
+    "homepage": "https://github.com/akiraaisha/signature-pad",
     "support": {
-        "issues": "https://github.com/bradwarwick/signature-pad/issues",
-        "source": "https://github.com/bradwarwick/signature-pad"
+        "issues": "https://github.com/akiraaisha/signature-pad/issues",
+        "source": "https://github.com/akiraaisha/signature-pad"
     },
     "license": "MIT",
     "authors": [
@@ -21,6 +21,7 @@
     ],
     "require": {
         "php": "^8.3",
+        "filament/filament": "^3.3"
         "filament/forms": "^3.0",
         "illuminate/contracts": "^12.0",
         "spatie/laravel-package-tools": "^1.0"
@@ -42,13 +43,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Coolsam\\SignaturePad\\": "src/",
-            "Coolsam\\SignaturePad\\Database\\Factories\\": "database/factories/"
+            "akiraaisha\\SignaturePad\\": "src/",
+            "akiraaisha\\SignaturePad\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Coolsam\\SignaturePad\\Tests\\": "tests/"
+            "akiraaisha\\SignaturePad\\Tests\\": "tests/"
         }
     },
     "scripts": {
